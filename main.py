@@ -28,19 +28,19 @@ async def start_handler(_, event: Message):
 	await event.reply_photo("https://telegra.ph/file/165941ae764a56d6d9c89.jpg",
                                 caption=Config.START_MSG.format(event.from_user.mention),
                                 reply_markup=InlineKeyboardMarkup([
-                                    [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
-                                     InlineKeyboardButton("Creator", url="https://t.me/z_harbour")],
-                                    [InlineKeyboardButton("Help", callback_data="Help_msg"),
-                                     InlineKeyboardButton("About", callback_data="About_msg")]]))
+                                    [InlineKeyboardButton("Our Channel🌹", url="https://t.me/z_harbour"),
+                                     InlineKeyboardButton("Creator👨‍💻", url="https://t.me/z_harbour")],
+                                    [InlineKeyboardButton("💙Help💙", callback_data="Help_msg"),
+                                     InlineKeyboardButton("Aboutℹ️", callback_data="About_msg")]]))
 
 @Bot.on_message(filters.private & filters.command("help"))
 async def help_handler(_, event: Message):
 
     await event.reply_text(Config.ABOUT_HELP_TEXT.format(event.from_user.mention),
         reply_markup=InlineKeyboardMarkup([
-            [InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour"),
-             InlineKeyboardButton("Our Group", url="https://t.me/blackest_harbour"), 
-             InlineKeyboardButton("About", callback_data="About_msg")]
+            [InlineKeyboardButton("Our Channel🌹", url="https://t.me/z_harbour"),
+             InlineKeyboardButton("Our Group🔗", url="https://t.me/blackest_harbour"), 
+             InlineKeyboardButton("Aboutℹ️", callback_data="About_msg")]
         ])
     )
 
@@ -82,7 +82,7 @@ async def button(bot, cmd: CallbackQuery):
 					],
 					[
 						InlineKeyboardButton("Creator👨‍💻", url="https://t.me/z_harbour"),
-						InlineKeyboardButton("Home", callback_data="gohome")
+						InlineKeyboardButton("Home🏡", callback_data="gohome")
 					]
 				]
 			),
@@ -95,12 +95,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
 					[
-						InlineKeyboardButton("About", callback_data="About_msg"),
-						InlineKeyboardButton("Our Channel", url="https://t.me/z_harbour")
+						InlineKeyboardButton("Aboutℹ️", callback_data="About_msg"),
+						InlineKeyboardButton("Our Channel🔰", url="https://t.me/z_harbour")
 					], 
                                         [
-						InlineKeyboardButton("Owner", url="https://t.me/z_harbour"),
-						InlineKeyboardButton("Home", callback_data="gohome")
+						InlineKeyboardButton("Owner👨‍🔧", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("Home🏠", callback_data="gohome")
 					]
 				]
 			),
@@ -113,12 +113,12 @@ async def button(bot, cmd: CallbackQuery):
 			reply_markup=InlineKeyboardMarkup(
 				[
                                         [
-						InlineKeyboardButton("Help", callback_data="Help_msg"),
-						InlineKeyboardButton("About", callback_data="About_msg")
+						InlineKeyboardButton("Help👨‍🔧", callback_data="Help_msg"),
+						InlineKeyboardButton("Aboutℹ️", callback_data="About_msg")
 					],
 					[
-						InlineKeyboardButton("Support", url="https://t.me/z_harbour"),
-						InlineKeyboardButton("Group", url="https://t.me/blackest_harbour")
+						InlineKeyboardButton("Support🤝", url="https://t.me/z_harbour"),
+						InlineKeyboardButton("Group🎦", url="https://t.me/blackest_harbour")
 					]
 				]
 			),
