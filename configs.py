@@ -12,7 +12,7 @@ class Config(object):
     CHANNEL_ID = int(os.environ.get("CHANNEL_ID", -100))
     BOT_USERNAME = os.environ.get("BOT_USERNAME")
     BOT_OWNER = int(os.environ.get("BOT_OWNER"))
-    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
+    UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "0")
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
 🤖 My Name: <a href='https://t.me/Mdisk_Links_Sender_Bot'>Mdisk Search Robot</a>
