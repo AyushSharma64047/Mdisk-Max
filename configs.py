@@ -15,7 +15,7 @@ class Config(object):
     UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", None)
     ABOUT_BOT_TEXT = """<b>This is Mdisk Search Bot.
 
-🤖 My Name: <a href='https://t.me/cyniteofficial'>Mdisk Search Robot</a>
+🤖 My Name: <a href='https://t.me/Mdisk_Links_Sender_Bot'>Mdisk Search Robot</a>
 
 📝 Language : <a href='https://www.python.org'> Python V3</a>
 
@@ -23,33 +23,38 @@ class Config(object):
 
 📡 Server: <a href='https://heroku.com'>Heroku</a>
 
-👨‍💻 Created By: <a href='https://t.me/cyniteofficial'>Cynite</a></b>
+👨‍💻 Created By: <a href='https://t.me/z_harbour'>ZHarbour</a></b>
 """
 
-    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/cyniteofficial'>Click Me</a>
+    ABOUT_HELP_TEXT = """<b>👨‍💻 Developer : <a href='https://t.me/z_harbour'>Aayush</a>
 
-If You Want Your Own Bot Like This Then You Can Contact Our Developer.</b>
+Source: Closed </b>
 """
 
     HOME_TEXT = """
-<b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+<b>Yo! {}😇,
 
-I Can Search 🔍 What You Want❗
+I'm Mdisk Link Search Robo.</a>
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+I Can Search🔍 Mobiz-Seriez-Shows❗
+
+Just Drop A Name With Correct Spelling And See My Powers ⚡⚡
+
+<a>If You Didn't Found Ur Result, Please Try Requesting Here👉<i>@blackest_harbour</i> </a></b>
+
 """
-
 
     START_MSG = """
-<b>Hey! {}😅,
 
-I'm Mdisk Search Robot.🤖</a>
+<b>Yo! Dear {}😇,
 
-I Can Search 🔍 What You Want❗
+I'm Mdisk Link Search Robo.</a>
 
-<a>Made With ❤ By @Cyniteofficial</a></b>
+I Can Search🔍 Mobiz-Seriz-Showz❗
+
+Just Drop A Name With Correct Spelling And See My Powers ⚡
+
+<a>If You Didn't Found Ur Result Try Requesting Here👉<u> @blackest_harbour <u> </a></b>
+
 """
-
-
